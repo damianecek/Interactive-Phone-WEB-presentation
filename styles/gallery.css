@@ -1,0 +1,47 @@
+    .gallery {
+    margin : 30px;
+    margin-top: 0;
+    border : white solid 1px;
+    float : left;
+    }
+    .gallery:hover {
+    border : #777 solid 1px;
+    }
+    .gallery img {
+    width : 100%;
+    height : auto;
+    }
+    .comment{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+    .comments{
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    }
+    .cell{
+        border: black 1px solid;
+        padding: 10px;
+    }
+    @keyframes shape-animation {
+        0% {
+          width: 350px;
+          height: auto;
+          border-radius: 0;
+        }
+        50% {
+          width: 350px;
+          height: auto;
+          border-radius: 20%;
+        }
+        100% {
+            width: 350px;
+            height: auto;
+            border-radius: 0;
+          }
+      }
+      .shape {
+        animation: shape-animation 10s linear infinite;
+      }

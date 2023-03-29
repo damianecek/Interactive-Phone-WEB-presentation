@@ -1,0 +1,236 @@
+    html {
+    scroll-behavior : smooth;
+    }
+    body::-webkit-scrollbar {
+    display : none;
+    }
+    body {
+    padding : 0;
+    margin : 0;
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    h1 {
+    font-size : 35px;
+    font-weight : lighter;
+    }
+    .nav {
+    position : sticky;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    height : 60px;
+    top : 0;
+    background-color : white;
+    box-shadow : 0 0 2px;
+    z-index : 11;
+    }
+    .nav__title {
+    font-weight : bold;
+    margin : 0 30px;
+    }
+    .nav__item {
+    color : gray;
+    display : inline-block;
+    margin : 0 30px;
+    background-color : white;
+    }
+    .nav__title a {
+    text-decoration : none;
+    color : black;
+    }
+    a {
+    text-decoration : none;
+    color : gray;
+    }
+    a:hover {
+    transition : 1000ms;
+    color : black;
+    }
+    .container {
+    height : auto;
+    margin-top : 50px;
+    }
+    .image {
+    margin : 5px;
+    margin-left : 50px;
+    padding : 0;
+    display : inline-flex;
+    width : 40%;
+    height : 550px;
+    justify-content : center;
+    }
+    .image img {
+    transition : 300ms;
+    width : 300px;
+    opacity : 0.95;
+    animation : scaling 3s infinite alternate;
+    }
+    .image img:hover {
+    transition : 300ms;
+    opacity : 1;
+    }
+    .aside {
+    margin : 5px;
+    padding : 0;
+    display : inline-block;
+    width : 49%;
+    height : 550px;
+    vertical-align : top;
+    }
+    .aside ul {
+    margin-top : 65px;
+    list-style : circle;
+    }
+    .aside li {
+    margin-right : 65px;
+    margin-left : 40px;
+    margin-bottom : 65px;
+    font-size : larger;
+    }
+    .aside small {
+    color : gray;
+    }
+    .nadpis {
+    margin : 75px;
+    margin-top : 0;
+    scroll-margin-top : 4em;
+    }
+    .gallery {
+    display : flex;
+    }
+    .item {
+    flex : 33.33%;
+    padding : 5px;
+    }
+    .specs {
+    columns : 2;
+    }
+    .specsimage {
+    margin : 5px;
+    margin-left : 50px;
+    padding : 0;
+    display : inline-flex;
+    width : 40%;
+    height : 300px;
+    justify-content : center;
+    }
+    .specsimage img {
+    transition : 300ms;
+    width : 300px;
+    opacity : 0.95;
+    }
+    .specsimage img:hover {
+    transition : 300ms;
+    opacity : 1;
+    }
+    .side {
+    margin : 5px;
+    margin-left : 8%;
+    padding : 0;
+    display : inline-block;
+    width : 49%;
+    height : 550px;
+    vertical-align : top;
+    }
+    .side ul {
+    margin-top : 65px;
+    list-style : circle;
+    }
+    .side li {
+    margin-right : 65px;
+    margin-left : 40px;
+    margin-bottom : 40px;
+    font-size : larger;
+    }
+    .side li video {
+    margin-top : 30px;
+    }
+    .side small {
+    color : gray;
+    }
+    .imagefaq {
+    margin : 5px;
+    padding : 0;
+    display : inline-flex;
+    width : 40%;
+    height : 550px;
+    justify-content : center;
+    }
+    .imagefaq img {
+    transition : 300ms;
+    width : 300px;
+    opacity : 0.95;
+    }
+    .imagefaq img {
+    transition : 300ms;
+    width : 300px;
+    opacity : 0.95;
+    }
+    .sidewho {
+    margin : 5px;
+    margin-left : 8%;
+    padding : 0;
+    display : inline-block;
+    width : 49%;
+    height : 550px;
+    vertical-align : top;
+    }
+    .sidewho ul {
+    columns : 2;
+    margin-top : 65px;
+    list-style : circle;
+    }
+    .sidewho li {
+    margin-right : 65px;
+    margin-left : 40px;
+    margin-bottom : 40px;
+    font-size : larger;
+    }
+    .sidewho small {
+    color : gray;
+    }
+    .top {
+    --offset : 550px;
+    position : sticky;
+    bottom : 20px;
+    margin-left : 95%;
+    place-self : end;
+    text-decoration : none;
+    padding : 20px;
+    font-family : sans-serif;
+    color : #fff;
+    background : #000;
+    border-radius : 100px;
+    white-space : nowrap;
+    }
+    @media only screen and (max-width: 1150px) {
+    .nav__title {
+    display : none;
+    }
+    }
+    @media only screen and (max-width: 965px) {
+    .nav {
+    position : sticky;
+    justify-content : space-between;
+    align-items : center;
+    height : 200px;
+    top : 0;
+    background-color : white;
+    box-shadow : 0 0 2px;
+    z-index : 11;
+    }
+    .nav__title {
+    font-weight : bold;
+    margin : 0 30px;
+    display : none;
+    }
+    .nav__item {
+    color : gray;
+    margin : 0 30px;
+    background-color : white;
+    }
+    .nav__title a {
+    text-decoration : none;
+    color : black;
+    }
+    }
